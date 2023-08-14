@@ -60,7 +60,6 @@ class KanaStartTestViewController: UIViewController {
         super.viewDidLoad()
         setupViews()
         setupLayout()
-        printSystemFonts()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -70,8 +69,6 @@ class KanaStartTestViewController: UIViewController {
     
     private func setupViews() {
         view.backgroundColor = .white
-        
-        
         view.addSubview(buttonStack)
         
         buttonStack.addArrangedSubview(descriptionLabel)
@@ -94,23 +91,11 @@ class KanaStartTestViewController: UIViewController {
             $0.height.equalTo(50)
             $0.width.equalTo(100)
         }
-        
-//        descriptionLabel.snp.makeConstraints {
-//            $0.top.equalTo(startButton.snp.bottom).offset(15)
-//            $0.centerX.equalTo(startButton.snp.centerX)
-//        }
-        
+
         startDrawButton.snp.makeConstraints {
-            //$0.top.equalTo(descriptionLabel.snp.bottom).offset(30)
             $0.height.equalTo(50)
             $0.width.equalTo(100)
-            //$0.center.equalToSuperview()
         }
-        
-//        drawDescriptionLabel.snp.makeConstraints {
-//            $0.top.equalTo(startButton.snp.bottom).offset(15)
-//            $0.centerX.equalTo(startButton.snp.centerX)
-//        }
     }
     
     @objc private func buttonTapped(_ sender: UIButton) {
@@ -118,17 +103,5 @@ class KanaStartTestViewController: UIViewController {
         
         self.navigationController?.pushViewController(vc, animated:
         true)
-    }
-    
-    public func printSystemFonts() {
-        // Use this identifier to filter out the system fonts in the logs.
-        let identifier: String = "[SYSTEM FONTS]"
-        // Here's the functionality that prints all the system fonts.
-        for family in UIFont.familyNames as [String] {
-            debugPrint("\(identifier) FONT FAMILY :  \(family)")
-            for name in UIFont.fontNames(forFamilyName: family) {
-                debugPrint("\(identifier) FONT NAME :  \(name)")
-            }
-        }
     }
 }

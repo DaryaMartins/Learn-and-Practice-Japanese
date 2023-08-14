@@ -9,23 +9,48 @@
 /* Begin PBXBuildFile section */
 		8214706A2A7A6D6E001D4F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470692A7A6D6E001D4F03 /* AppDelegate.swift */; };
 		8214706C2A7A6D6E001D4F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214706B2A7A6D6E001D4F03 /* SceneDelegate.swift */; };
-		8214706E2A7A6D6E001D4F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214706D2A7A6D6E001D4F03 /* ViewController.swift */; };
-		821470712A7A6D6E001D4F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8214706F2A7A6D6E001D4F03 /* Main.storyboard */; };
+		8214706E2A7A6D6E001D4F03 /* KanaStartTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214706D2A7A6D6E001D4F03 /* KanaStartTestViewController.swift */; };
 		821470742A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 821470722A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodeld */; };
 		821470762A7A6D6F001D4F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821470752A7A6D6F001D4F03 /* Assets.xcassets */; };
-		821470792A7A6D6F001D4F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821470772A7A6D6F001D4F03 /* LaunchScreen.storyboard */; };
+		821470912A7BDEA2001D4F03 /* WordsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470902A7BDEA2001D4F03 /* WordsListViewController.swift */; };
+		821470932A7BDECA001D4F03 /* GrammarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470922A7BDECA001D4F03 /* GrammarListViewController.swift */; };
+		821470962A7BE16C001D4F03 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 821470952A7BE16C001D4F03 /* SnapKit */; };
+		8214709B2A7BE85F001D4F03 /* Klee One–Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 821470992A7BE85F001D4F03 /* Klee One–Semibold.ttf */; };
+		8214709C2A7BE85F001D4F03 /* Klee One–Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8214709A2A7BE85F001D4F03 /* Klee One–Regular.ttf */; };
+		8214709E2A7BEC6E001D4F03 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214709D2A7BEC6E001D4F03 /* Fonts.swift */; };
+		821470A32A7BF212001D4F03 /* KanaTestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470A22A7BF212001D4F03 /* KanaTestingViewController.swift */; };
+		821470A72A7BFF9B001D4F03 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470A62A7BFF9B001D4F03 /* UIColor.swift */; };
+		821470AA2A7D56BC001D4F03 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470A82A7D56BC001D4F03 /* LaunchViewController.swift */; };
+		821470AB2A7D56BC001D4F03 /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 821470A92A7D56BC001D4F03 /* LaunchViewController.xib */; };
+		821470BB2A7D68BD001D4F03 /* Kana+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470B92A7D68BC001D4F03 /* Kana+CoreDataClass.swift */; };
+		821470BE2A7D6C59001D4F03 /* KanaTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470BD2A7D6C59001D4F03 /* KanaTestingViewModel.swift */; };
+		821470C02A7D79A6001D4F03 /* KanaValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470BF2A7D79A6001D4F03 /* KanaValues.swift */; };
+		821470C32A8117E8001D4F03 /* KanaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470C22A8117E8001D4F03 /* KanaTest.swift */; };
+		821470C52A83BD78001D4F03 /* KanaTestingDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470C42A83BD78001D4F03 /* KanaTestingDrawingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		821470662A7A6D6E001D4F03 /* Learn and Practice Japanese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn and Practice Japanese.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		821470692A7A6D6E001D4F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8214706B2A7A6D6E001D4F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8214706D2A7A6D6E001D4F03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		821470702A7A6D6E001D4F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8214706D2A7A6D6E001D4F03 /* KanaStartTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaStartTestViewController.swift; sourceTree = "<group>"; };
 		821470732A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learn_and_Practice_Japanese.xcdatamodel; sourceTree = "<group>"; };
 		821470752A7A6D6F001D4F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		821470782A7A6D6F001D4F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8214707A2A7A6D6F001D4F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821470902A7BDEA2001D4F03 /* WordsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsListViewController.swift; sourceTree = "<group>"; };
+		821470922A7BDECA001D4F03 /* GrammarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarListViewController.swift; sourceTree = "<group>"; };
+		821470992A7BE85F001D4F03 /* Klee One–Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Klee One–Semibold.ttf"; sourceTree = "<group>"; };
+		8214709A2A7BE85F001D4F03 /* Klee One–Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Klee One–Regular.ttf"; sourceTree = "<group>"; };
+		8214709D2A7BEC6E001D4F03 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		821470A22A7BF212001D4F03 /* KanaTestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTestingViewController.swift; sourceTree = "<group>"; };
+		821470A62A7BFF9B001D4F03 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		821470A82A7D56BC001D4F03 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		821470A92A7D56BC001D4F03 /* LaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		821470B92A7D68BC001D4F03 /* Kana+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kana+CoreDataClass.swift"; sourceTree = "<group>"; };
+		821470BD2A7D6C59001D4F03 /* KanaTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTestingViewModel.swift; sourceTree = "<group>"; };
+		821470BF2A7D79A6001D4F03 /* KanaValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaValues.swift; sourceTree = "<group>"; };
+		821470C22A8117E8001D4F03 /* KanaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTest.swift; sourceTree = "<group>"; };
+		821470C42A83BD78001D4F03 /* KanaTestingDrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTestingDrawingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821470962A7BE16C001D4F03 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +84,116 @@
 		821470682A7A6D6E001D4F03 /* Learn and Practice Japanese */ = {
 			isa = PBXGroup;
 			children = (
+				821470A42A7BFF7C001D4F03 /* Model */,
+				821470972A7BE78F001D4F03 /* Assets */,
+				8214708F2A7BDE04001D4F03 /* View */,
 				821470692A7A6D6E001D4F03 /* AppDelegate.swift */,
 				8214706B2A7A6D6E001D4F03 /* SceneDelegate.swift */,
-				8214706D2A7A6D6E001D4F03 /* ViewController.swift */,
-				8214706F2A7A6D6E001D4F03 /* Main.storyboard */,
-				821470752A7A6D6F001D4F03 /* Assets.xcassets */,
-				821470772A7A6D6F001D4F03 /* LaunchScreen.storyboard */,
 				8214707A2A7A6D6F001D4F03 /* Info.plist */,
-				821470722A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodeld */,
+				821470A82A7D56BC001D4F03 /* LaunchViewController.swift */,
+				821470A92A7D56BC001D4F03 /* LaunchViewController.xib */,
 			);
 			path = "Learn and Practice Japanese";
+			sourceTree = "<group>";
+		};
+		8214708F2A7BDE04001D4F03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8214709F2A7BF1DD001D4F03 /* KanaTest */,
+				821470A02A7BF1E8001D4F03 /* WordList */,
+				821470A12A7BF1F1001D4F03 /* GrammarList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		821470972A7BE78F001D4F03 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				821470982A7BE7F1001D4F03 /* Fonts */,
+				821470752A7A6D6F001D4F03 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		821470982A7BE7F1001D4F03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				821470992A7BE85F001D4F03 /* Klee One–Semibold.ttf */,
+				8214709A2A7BE85F001D4F03 /* Klee One–Regular.ttf */,
+				8214709D2A7BEC6E001D4F03 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8214709F2A7BF1DD001D4F03 /* KanaTest */ = {
+			isa = PBXGroup;
+			children = (
+				821470C62A83BF2E001D4F03 /* ViewModel */,
+				8214706D2A7A6D6E001D4F03 /* KanaStartTestViewController.swift */,
+				821470A22A7BF212001D4F03 /* KanaTestingViewController.swift */,
+				821470C42A83BD78001D4F03 /* KanaTestingDrawingViewController.swift */,
+			);
+			path = KanaTest;
+			sourceTree = "<group>";
+		};
+		821470A02A7BF1E8001D4F03 /* WordList */ = {
+			isa = PBXGroup;
+			children = (
+				821470902A7BDEA2001D4F03 /* WordsListViewController.swift */,
+			);
+			path = WordList;
+			sourceTree = "<group>";
+		};
+		821470A12A7BF1F1001D4F03 /* GrammarList */ = {
+			isa = PBXGroup;
+			children = (
+				821470922A7BDECA001D4F03 /* GrammarListViewController.swift */,
+			);
+			path = GrammarList;
+			sourceTree = "<group>";
+		};
+		821470A42A7BFF7C001D4F03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				821470C12A8117BC001D4F03 /* Models */,
+				821470AC2A7D6604001D4F03 /* CoreData */,
+				821470A52A7BFF82001D4F03 /* Extentions */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		821470A52A7BFF82001D4F03 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				821470A62A7BFF9B001D4F03 /* UIColor.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		821470AC2A7D6604001D4F03 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				821470B92A7D68BC001D4F03 /* Kana+CoreDataClass.swift */,
+				821470722A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		821470C12A8117BC001D4F03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				821470BF2A7D79A6001D4F03 /* KanaValues.swift */,
+				821470C22A8117E8001D4F03 /* KanaTest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		821470C62A83BF2E001D4F03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				821470BD2A7D6C59001D4F03 /* KanaTestingViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +212,9 @@
 			dependencies = (
 			);
 			name = "Learn and Practice Japanese";
+			packageProductDependencies = (
+				821470952A7BE16C001D4F03 /* SnapKit */,
+			);
 			productName = "Learn and Practice Japanese";
 			productReference = 821470662A7A6D6E001D4F03 /* Learn and Practice Japanese.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +243,9 @@
 				Base,
 			);
 			mainGroup = 8214705D2A7A6D6E001D4F03;
+			packageReferences = (
+				821470942A7BE16C001D4F03 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 821470672A7A6D6E001D4F03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,9 +260,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821470792A7A6D6F001D4F03 /* LaunchScreen.storyboard in Resources */,
+				8214709C2A7BE85F001D4F03 /* Klee One–Regular.ttf in Resources */,
 				821470762A7A6D6F001D4F03 /* Assets.xcassets in Resources */,
-				821470712A7A6D6E001D4F03 /* Main.storyboard in Resources */,
+				8214709B2A7BE85F001D4F03 /* Klee One–Semibold.ttf in Resources */,
+				821470AB2A7D56BC001D4F03 /* LaunchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +274,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821470C52A83BD78001D4F03 /* KanaTestingDrawingViewController.swift in Sources */,
+				8214709E2A7BEC6E001D4F03 /* Fonts.swift in Sources */,
+				821470AA2A7D56BC001D4F03 /* LaunchViewController.swift in Sources */,
+				821470BE2A7D6C59001D4F03 /* KanaTestingViewModel.swift in Sources */,
 				821470742A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodeld in Sources */,
-				8214706E2A7A6D6E001D4F03 /* ViewController.swift in Sources */,
+				821470C32A8117E8001D4F03 /* KanaTest.swift in Sources */,
+				8214706E2A7A6D6E001D4F03 /* KanaStartTestViewController.swift in Sources */,
+				821470BB2A7D68BD001D4F03 /* Kana+CoreDataClass.swift in Sources */,
+				821470932A7BDECA001D4F03 /* GrammarListViewController.swift in Sources */,
+				821470A72A7BFF9B001D4F03 /* UIColor.swift in Sources */,
+				821470912A7BDEA2001D4F03 /* WordsListViewController.swift in Sources */,
+				821470A32A7BF212001D4F03 /* KanaTestingViewController.swift in Sources */,
+				821470C02A7D79A6001D4F03 /* KanaValues.swift in Sources */,
 				8214706A2A7A6D6E001D4F03 /* AppDelegate.swift in Sources */,
 				8214706C2A7A6D6E001D4F03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8214706F2A7A6D6E001D4F03 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				821470702A7A6D6E001D4F03 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		821470772A7A6D6F001D4F03 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				821470782A7A6D6F001D4F03 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8214707B2A7A6D6F001D4F03 /* Debug */ = {
@@ -220,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,10 +420,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Learn and Practice Japanese/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchViewController;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,10 +450,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Learn and Practice Japanese/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchViewController;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +491,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		821470942A7BE16C001D4F03 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		821470952A7BE16C001D4F03 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 821470942A7BE16C001D4F03 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		821470722A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodeld */ = {

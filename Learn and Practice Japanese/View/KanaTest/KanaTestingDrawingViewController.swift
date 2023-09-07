@@ -145,9 +145,18 @@ class KanaTestingDrawingViewController: UIViewController {
         
         viewModel.fetchKana()
         setupViews()
-        setupLayout()
         updateViews()
         setupCanvasView()
+        
+        // todo: fix logic
+        if view.frame.width > 800 {
+            characterLabel.font = UIFont(name: "KleeOne-SemiBold", size: 100)
+            hiraganaLabel.font = UIFont(name: "KleeOne-SemiBold", size: 500)
+            katakanaLabel.font = UIFont(name: "KleeOne-SemiBold", size: 500)
+            setupLayoutForIpad()
+        } else {
+            setupLayout()
+        }
     }
     
     private func setupViews() {
@@ -158,7 +167,7 @@ class KanaTestingDrawingViewController: UIViewController {
         view.addSubview(kanaButtonStack)
         view.addSubview(otherButtonStack)
         view.addSubview(stackView)
-        view.addSubview(undoButton)
+        view.addSubview(nextButton)
         
         drawingView.addSubview(hiraganaLabel)
         drawingView.addSubview(katakanaLabel)
@@ -166,13 +175,13 @@ class KanaTestingDrawingViewController: UIViewController {
         drawingView.addSubview(verticalLine)
         drawingView.addSubview(canvasView)
         
-        stackView.addArrangedSubview(kanaButtonStack)
         stackView.addArrangedSubview(otherButtonStack)
+        stackView.addArrangedSubview(kanaButtonStack)
         
         kanaButtonStack.addArrangedSubview(hiraganaButton)
         kanaButtonStack.addArrangedSubview(katakanaButton)
         otherButtonStack.addArrangedSubview(clearButton)
-        otherButtonStack.addArrangedSubview(nextButton)
+        otherButtonStack.addArrangedSubview(undoButton)
         
     }
     
@@ -212,15 +221,64 @@ class KanaTestingDrawingViewController: UIViewController {
             $0.center.equalToSuperview()
         }
         
-        undoButton.snp.makeConstraints {
+        stackView.snp.makeConstraints {
             $0.top.greaterThanOrEqualTo(drawingView.snp.bottom).offset(20)
-            $0.leading.trailing.equalToSuperview().inset(50)
+            $0.leading.trailing.equalToSuperview().inset(20)
+        }
+        
+        nextButton.snp.makeConstraints {
+            $0.top.equalTo(stackView.snp.bottom).offset(20)
+            $0.leading.trailing.equalToSuperview().inset(20)
+            $0.bottom.greaterThanOrEqualToSuperview().inset(50)
+        }
+    }
+    
+    // todo: need some refactoring
+    private func setupLayoutForIpad() {
+        characterLabel.snp.makeConstraints {
+            $0.top.equalToSuperview().inset(40)
+            $0.centerX.equalToSuperview()
+        }
+        
+        drawingView.snp.makeConstraints {
+            $0.top.equalTo(characterLabel.snp.bottom).offset(30)
+            $0.height.equalTo(drawingView.snp.width)
+            $0.leading.trailing.equalToSuperview().inset(150)
+        }
+        
+        canvasView.snp.makeConstraints {
+            $0.edges.equalToSuperview()
+        }
+        
+        horizontalLine.snp.makeConstraints {
+            $0.centerY.equalToSuperview()
+            $0.height.equalTo(3)
+            $0.width.equalToSuperview()
+        }
+        
+        verticalLine.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.width.equalTo(3)
+            $0.height.equalToSuperview()
+        }
+
+        hiraganaLabel.snp.makeConstraints {
+            $0.center.equalToSuperview()
+        }
+        
+        katakanaLabel.snp.makeConstraints {
+            $0.center.equalToSuperview()
         }
         
         stackView.snp.makeConstraints {
-            $0.top.equalTo(undoButton.snp.bottom).offset(20)
-            $0.leading.trailing.equalToSuperview().inset(20)
-            $0.bottom.greaterThanOrEqualToSuperview().inset(50)
+            $0.top.greaterThanOrEqualTo(drawingView.snp.bottom).offset(40)
+            $0.leading.trailing.equalToSuperview().inset(70)
+        }
+        
+        nextButton.snp.makeConstraints {
+            $0.top.equalTo(stackView.snp.bottom).offset(20)
+            $0.leading.trailing.equalToSuperview().inset(70)
+            $0.bottom.greaterThanOrEqualToSuperview().inset(150)
         }
     }
     
@@ -275,6 +333,6 @@ extension KanaTestingDrawingViewController: PKCanvasViewDelegate {
         canvasView.alwaysBounceVertical = true
         canvasView.drawingPolicy = .anyInput
         canvasView.backgroundColor = .clear
-        canvasView.tool = PKInkingTool(.pen, color: UIColor(hex: "#43a6d1ff") ?? .darkGray, width: 30)
+        canvasView.tool = PKInkingTool(.pen, color: UIColor(hex: "#43a6d1ff") ?? .darkGray, width: 50)
     }
 }

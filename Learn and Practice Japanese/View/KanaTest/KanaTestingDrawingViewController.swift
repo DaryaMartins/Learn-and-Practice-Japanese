@@ -333,6 +333,10 @@ extension KanaTestingDrawingViewController: PKCanvasViewDelegate {
         canvasView.alwaysBounceVertical = true
         canvasView.drawingPolicy = .anyInput
         canvasView.backgroundColor = .clear
-        canvasView.tool = PKInkingTool(.pen, color: UIColor(hex: "#43a6d1ff") ?? .darkGray, width: 50)
+        if #available(iOS 17.0, *) {
+            canvasView.tool = PKInkingTool(.monoline, color: UIColor(hex: "#43a6d1ff") ?? .darkGray, width: 5)
+        } else {
+            canvasView.tool = PKInkingTool(.pen, color: UIColor(hex: "#43a6d1ff") ?? .darkGray, width: 8)
+        }
     }
 }

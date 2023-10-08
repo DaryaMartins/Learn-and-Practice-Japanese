@@ -10,7 +10,13 @@ import SnapKit
 
 class WordsListViewController: UIViewController {
     private let searchField = UITextField()
-    private let wordList = UITableView()
+    private let wordList: UITableView = {
+        var tableView = UITableView()
+        tableView.backgroundColor = .white
+        tableView.separatorInset = .zero
+        tableView.separatorColor = UIColor(hex: "#a1ddf7ff")
+        return tableView
+    }()
     
     private let buttonStack: UIStackView = {
         var stackView = UIStackView()
@@ -62,6 +68,11 @@ class WordsListViewController: UIViewController {
         self.setupLayout()
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tabBarController?.tabBar.isHidden = false
+    }
                                                           
     @objc private func searchButtonTapped(_ sender: AnyObject) {
         if searchField.isHidden {
@@ -85,7 +96,8 @@ class WordsListViewController: UIViewController {
     }
     
     @objc private func addButtonTapped(_ sender: AnyObject) {
-        print("Adding")
+        let vc = WordInfoViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @objc private func filterButtonTapped(_ sender: AnyObject) {
@@ -125,7 +137,7 @@ extension WordsListViewController {
         
         wordList.snp.makeConstraints {
             $0.top.equalTo(searchButton.snp.bottom).offset(20)
-            $0.leading.trailing.equalToSuperview().inset(20)
+            $0.leading.trailing.equalToSuperview().inset(15)
             $0.bottom.equalToSuperview().inset(100)
         }
     }
@@ -140,6 +152,6 @@ extension WordsListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        UITableViewCell()
+        WordListsCell()
     }
 }

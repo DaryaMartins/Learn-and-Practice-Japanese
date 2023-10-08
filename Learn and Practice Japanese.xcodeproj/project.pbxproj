@@ -27,6 +27,8 @@
 		821470C02A7D79A6001D4F03 /* KanaValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470BF2A7D79A6001D4F03 /* KanaValues.swift */; };
 		821470C32A8117E8001D4F03 /* KanaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470C22A8117E8001D4F03 /* KanaTest.swift */; };
 		821470C52A83BD78001D4F03 /* KanaTestingDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470C42A83BD78001D4F03 /* KanaTestingDrawingViewController.swift */; };
+		8272CE182AAA26D300BFDBC1 /* WordInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272CE172AAA26D300BFDBC1 /* WordInfoViewController.swift */; };
+		82B7A9272AD2A5F600B70FF6 /* WordListsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B7A9262AD2A5F600B70FF6 /* WordListsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		821470BF2A7D79A6001D4F03 /* KanaValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaValues.swift; sourceTree = "<group>"; };
 		821470C22A8117E8001D4F03 /* KanaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTest.swift; sourceTree = "<group>"; };
 		821470C42A83BD78001D4F03 /* KanaTestingDrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTestingDrawingViewController.swift; sourceTree = "<group>"; };
+		8272CE172AAA26D300BFDBC1 /* WordInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordInfoViewController.swift; sourceTree = "<group>"; };
+		82B7A9262AD2A5F600B70FF6 /* WordListsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +143,9 @@
 		821470A02A7BF1E8001D4F03 /* WordList */ = {
 			isa = PBXGroup;
 			children = (
+				82B7A9252AD2A5D800B70FF6 /* Cell */,
 				821470902A7BDEA2001D4F03 /* WordsListViewController.swift */,
+				8272CE172AAA26D300BFDBC1 /* WordInfoViewController.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -194,6 +200,14 @@
 				821470BD2A7D6C59001D4F03 /* KanaTestingViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82B7A9252AD2A5D800B70FF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				82B7A9262AD2A5F600B70FF6 /* WordListsCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +302,8 @@
 				821470A32A7BF212001D4F03 /* KanaTestingViewController.swift in Sources */,
 				821470C02A7D79A6001D4F03 /* KanaValues.swift in Sources */,
 				8214706A2A7A6D6E001D4F03 /* AppDelegate.swift in Sources */,
+				8272CE182AAA26D300BFDBC1 /* WordInfoViewController.swift in Sources */,
+				82B7A9272AD2A5F600B70FF6 /* WordListsCell.swift in Sources */,
 				8214706C2A7A6D6E001D4F03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

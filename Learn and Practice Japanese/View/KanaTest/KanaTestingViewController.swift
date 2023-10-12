@@ -48,7 +48,7 @@ class KanaTestingViewController: UIViewController {
     private var firstAnswerBtn: UIButton = {
         let button = UIButton()
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.layer.cornerRadius = 20
         button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
         return button
@@ -58,7 +58,7 @@ class KanaTestingViewController: UIViewController {
     private var secondAnswerBtn: UIButton = {
         let button = UIButton()
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.layer.cornerRadius = 20
         button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
         return button
@@ -68,7 +68,7 @@ class KanaTestingViewController: UIViewController {
     private var thirdAnswerBtn: UIButton = {
         let button = UIButton()
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.layer.cornerRadius = 20
         button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
         return button
@@ -78,7 +78,7 @@ class KanaTestingViewController: UIViewController {
     private var forthAnswerBtn: UIButton = {
         let button = UIButton()
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.layer.cornerRadius = 20
         button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
         return button
@@ -105,7 +105,7 @@ class KanaTestingViewController: UIViewController {
     }
     
     private func setupViews() {
-        view.backgroundColor = UIColor(hex: "#dbf4ffff")
+        view.backgroundColor = UIColor.backgroundColor
         view.addSubview(characterLabel)
         view.addSubview(answersButtonStack)
         view.addSubview(lastAnswerLabel)
@@ -149,20 +149,20 @@ class KanaTestingViewController: UIViewController {
     @objc private func answerButtonTapped(_ sender: UIButton) {
         var isCorrect = true
         if correctAnswer == sender.titleLabel?.text {
-            sender.backgroundColor = UIColor(hex: "#84f597ff")
+            sender.backgroundColor = UIColor.correctAnswerColor
         } else {
-            sender.backgroundColor = UIColor(hex: "#f57686ff")
+            sender.backgroundColor = UIColor.wrongAnswerColor
             isCorrect = false
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             if isCorrect {
-                self.lastAnswerLabel.backgroundColor = UIColor(hex: "#84f597ff")
+                self.lastAnswerLabel.backgroundColor = UIColor.correctAnswerColor
             } else {
-                self.lastAnswerLabel.backgroundColor = UIColor(hex: "#f57686ff")
+                self.lastAnswerLabel.backgroundColor = UIColor.wrongAnswerColor
             }
             self.lastAnswerLabel.text = self.lastAnswer
-            sender.backgroundColor = UIColor(hex: "#a1ddf7ff")
+            sender.backgroundColor = UIColor.accentColor
             self.updateViews()
         }
     }

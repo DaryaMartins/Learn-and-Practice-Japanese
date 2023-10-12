@@ -33,4 +33,13 @@ extension UIColor {
 
         return nil
     }
+    
+    // todo: fix name
+    static let accentColor = UIColor(hex: "#a1ddf7ff")
+    static let backgroundColor = UIColor(hex: "#dbf4ffff")
+    static let wrongAnswerColor = UIColor(hex: "#f57686ff")
+    static let correctAnswerColor = UIColor(hex: "#84f597ff")
+    static let lineColor = UIColor(hex: "#b8d2deff")
+    static let selectedButtonColor = UIColor(hex: "#43a6d1ff")
+    static let inkColor = UIColor(hex: "#2081a5ff")
 }

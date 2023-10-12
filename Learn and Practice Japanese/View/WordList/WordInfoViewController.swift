@@ -21,7 +21,7 @@ class WordInfoViewController: UIViewController {
         var button = UIButton()
         button.setTitle("Plain", for: .normal)
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 20)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         //button.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
         button.layer.cornerRadius = 15
         return button
@@ -31,7 +31,7 @@ class WordInfoViewController: UIViewController {
         var button = UIButton()
         button.setTitle("Polite", for: .normal)
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 20)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         //button.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
         button.layer.cornerRadius = 15
         return button

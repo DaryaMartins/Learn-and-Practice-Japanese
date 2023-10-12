@@ -11,7 +11,7 @@ import SnapKit
 class KanaStartTestViewController: UIViewController {
     lazy private var startButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.layer.cornerRadius = 20
         button.setTitle("Start", for: .normal)
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 30)
@@ -30,7 +30,7 @@ class KanaStartTestViewController: UIViewController {
     
     lazy private var startDrawButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.layer.cornerRadius = 20
         button.setTitle("Draw", for: .normal)
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 30)

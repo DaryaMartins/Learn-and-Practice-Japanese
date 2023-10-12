@@ -14,7 +14,7 @@ class WordsListViewController: UIViewController {
         var tableView = UITableView()
         tableView.backgroundColor = .white
         tableView.separatorInset = .zero
-        tableView.separatorColor = UIColor(hex: "#a1ddf7ff")
+        tableView.separatorColor = UIColor.accentColor
         return tableView
     }()
     
@@ -30,7 +30,7 @@ class WordsListViewController: UIViewController {
         var button = UIButton()
         button.setTitle("Search", for: .normal)
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 18)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
         button.layer.cornerRadius = 15
         return button
@@ -41,7 +41,7 @@ class WordsListViewController: UIViewController {
         var button = UIButton()
         button.setTitle("Add", for: .normal)
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 18)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.addTarget(self, action: #selector(addButtonTapped), for: .touchUpInside)
         button.layer.cornerRadius = 15
         return button
@@ -52,7 +52,7 @@ class WordsListViewController: UIViewController {
         var button = UIButton()
         button.setTitle("Filter", for: .normal)
         button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 18)
-        button.backgroundColor = UIColor(hex: "#a1ddf7ff")
+        button.backgroundColor = UIColor.accentColor
         button.addTarget(self, action: #selector(filterButtonTapped), for: .touchUpInside)
         button.layer.cornerRadius = 15
         return button

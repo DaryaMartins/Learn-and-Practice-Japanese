@@ -20,7 +20,7 @@ class KanaTestingViewController: UIViewController {
         return label
     }()
     
-    private var firstAnswerButtonStack: UIStackView = {
+    private var topOptionsStack: UIStackView = {
         let stack = UIStackView()
         stack.axis = .horizontal
         stack.distribution = .fillEqually
@@ -28,7 +28,7 @@ class KanaTestingViewController: UIViewController {
         return stack
     }()
     
-    private var secondAnswerButtonStack: UIStackView = {
+    private var bottomOptionsStack: UIStackView = {
         let stack = UIStackView()
         stack.axis = .horizontal
         stack.distribution = .fillEqually
@@ -36,54 +36,18 @@ class KanaTestingViewController: UIViewController {
         return stack
     }()
     
-    private var answersButtonStack: UIStackView = {
+    private var optionsStack: UIStackView = {
         let stack = UIStackView()
         stack.axis = .vertical
         stack.distribution = .fillEqually
         stack.spacing = 15
-        stack.contentMode = .scaleToFill
         return stack
     }()
     
-    private var firstAnswerBtn: UIButton = {
-        let button = UIButton()
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
-        return button
-        
-    }()
-    
-    private var secondAnswerBtn: UIButton = {
-        let button = UIButton()
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
-        return button
-        
-    }()
-    
-    private var thirdAnswerBtn: UIButton = {
-        let button = UIButton()
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
-        return button
-        
-    }()
-    
-    private var forthAnswerBtn: UIButton = {
-        let button = UIButton()
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
-        return button
-        
-    }()
+    private var firstOption = UIButton()
+    private var secondOption = UIButton()
+    private var thirdOption = UIButton()
+    private var forthOption = UIButton()
     
     private var lastAnswerLabel: UILabel = {
         let label = UILabel()
@@ -103,50 +67,78 @@ class KanaTestingViewController: UIViewController {
         setupLayout()
         updateViews()
     }
-    
-    private func setupViews() {
+}
+
+// MARK: Setup
+
+private extension KanaTestingViewController {
+    func setupViews() {
         view.backgroundColor = UIColor.backgroundColor
         view.addSubview(characterLabel)
-        view.addSubview(answersButtonStack)
         view.addSubview(lastAnswerLabel)
+        view.addSubview(optionsStack)
         
-        firstAnswerButtonStack.addArrangedSubview(firstAnswerBtn)
-        firstAnswerButtonStack.addArrangedSubview(secondAnswerBtn)
-        secondAnswerButtonStack.addArrangedSubview(thirdAnswerBtn)
-        secondAnswerButtonStack.addArrangedSubview(forthAnswerBtn)
-        answersButtonStack.addArrangedSubview(firstAnswerButtonStack)
-        answersButtonStack.addArrangedSubview(secondAnswerButtonStack)
+        updateButtonStyle(button: firstOption)
+        updateButtonStyle(button: secondOption)
+        updateButtonStyle(button: thirdOption)
+        updateButtonStyle(button: forthOption)
+        
+        topOptionsStack.addArrangedSubview(firstOption)
+        topOptionsStack.addArrangedSubview(secondOption)
+        bottomOptionsStack.addArrangedSubview(thirdOption)
+        bottomOptionsStack.addArrangedSubview(forthOption)
+        optionsStack.addArrangedSubview(topOptionsStack)
+        optionsStack.addArrangedSubview(bottomOptionsStack)
+        
     }
     
-    private func setupLayout() {
+    func setupLayout() {
         characterLabel.snp.makeConstraints {
-            $0.top.greaterThanOrEqualToSuperview().inset(50)
+            $0.top.equalToSuperview().inset(100)
             $0.centerX.equalToSuperview()
         }
         
-        firstAnswerButtonStack.snp.makeConstraints {
+        topOptionsStack.snp.makeConstraints {
             $0.height.equalTo(200)
         }
 
-        secondAnswerButtonStack.snp.makeConstraints {
+        bottomOptionsStack.snp.makeConstraints {
             $0.height.equalTo(200)
         }
-
-        answersButtonStack.snp.makeConstraints {
+        
+        optionsStack.snp.makeConstraints {
             $0.top.equalTo(characterLabel.snp.bottom).offset(30)
             $0.leading.trailing.equalToSuperview().inset(20)
             $0.centerY.equalToSuperview()
         }
         
         lastAnswerLabel.snp.makeConstraints {
-            $0.top.greaterThanOrEqualTo(answersButtonStack.snp.bottom).offset(15)
+            $0.top.greaterThanOrEqualTo(optionsStack.snp.bottom).offset(15)
             $0.centerX.equalToSuperview()
             $0.width.equalTo(230)
             $0.bottom.greaterThanOrEqualToSuperview().inset(50)
         }
     }
     
-    @objc private func answerButtonTapped(_ sender: UIButton) {
+    func updateButtonStyle(button: UIButton) {
+        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 60)
+        button.backgroundColor = UIColor.accentColor
+        button.layer.cornerRadius = 20
+        button.addTarget(self, action: #selector(answerButtonTapped), for: .touchUpInside)
+    }
+    
+    func updateViews() {
+        guard let options = viewModel.getKanaValue() else { return }
+        characterLabel.text = options.kanaUnderTest
+        correctAnswer = options.correctAnswer
+        firstOption.setTitle(options.optionOne, for: .normal)
+        secondOption.setTitle(options.optionTwo, for: .normal)
+        thirdOption.setTitle(options.optionThree, for: .normal)
+        forthOption.setTitle(options.optionFour, for: .normal)
+        lastAnswer = options.answerString
+    }
+    
+    @objc func answerButtonTapped(_ sender: UIButton) {
         var isCorrect = true
         if correctAnswer == sender.titleLabel?.text {
             sender.backgroundColor = UIColor.correctAnswerColor
@@ -165,16 +157,5 @@ class KanaTestingViewController: UIViewController {
             sender.backgroundColor = UIColor.accentColor
             self.updateViews()
         }
-    }
-    
-    private func updateViews() {
-        guard let options = viewModel.getKanaValue() else { return }
-        characterLabel.text = options.kanaUnderTest
-        correctAnswer = options.correctAnswer
-        firstAnswerBtn.setTitle(options.optionOne, for: .normal)
-        secondAnswerBtn.setTitle(options.optionTwo, for: .normal)
-        thirdAnswerBtn.setTitle(options.optionThree, for: .normal)
-        forthAnswerBtn.setTitle(options.optionFour, for: .normal)
-        lastAnswer = options.answerString
     }
 }

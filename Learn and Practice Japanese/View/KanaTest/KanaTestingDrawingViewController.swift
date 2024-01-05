@@ -86,55 +86,11 @@ class KanaTestingDrawingViewController: UIViewController {
         return stack
     }()
     
-    private var undoButton: UIButton = {
-        let button = UIButton()
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.setTitle("Undo", for: .normal)
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 30)
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        return button
-    }()
-    
-    private var katakanaButton: UIButton = {
-        let button = UIButton()
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.setTitle("Katakana", for: .normal)
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 30)
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        return button
-    }()
-    
-    private var hiraganaButton: UIButton = {
-        let button = UIButton()
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.setTitle("Hiragana", for: .normal)
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 30)
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        return button
-    }()
-    
-    private var clearButton: UIButton = {
-        let button = UIButton()
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.setTitle("Clear", for: .normal)
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 30)
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        return button
-    }()
-    
-    private var nextButton: UIButton = {
-        let button = UIButton()
-        button.backgroundColor = UIColor.accentColor
-        button.layer.cornerRadius = 20
-        button.setTitle("Next", for: .normal)
-        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 30)
-        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-        return button
-    }()
+    private var undoButton = UIButton()
+    private var katakanaButton = UIButton()
+    private var hiraganaButton = UIButton()
+    private var clearButton = UIButton()
+    private var nextButton = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -149,9 +105,19 @@ class KanaTestingDrawingViewController: UIViewController {
         updateViews()
         setupCanvasView()
     }
-    
-    private func setupViews() {
+}
+
+// MARK: Setup
+
+private extension KanaTestingDrawingViewController {
+    func setupViews() {
         view.backgroundColor = UIColor.backgroundColor
+        
+        setupButtonStyle(button: clearButton, title: ButtonNames.clear.rawValue)
+        setupButtonStyle(button: undoButton, title: ButtonNames.undo.rawValue)
+        setupButtonStyle(button: hiraganaButton, title: ButtonNames.hiragana.rawValue)
+        setupButtonStyle(button: katakanaButton, title: ButtonNames.katakana.rawValue)
+        setupButtonStyle(button: nextButton, title: ButtonNames.next.rawValue)
         
         view.addSubview(characterLabel)
         view.addSubview(drawingView)
@@ -169,14 +135,13 @@ class KanaTestingDrawingViewController: UIViewController {
         stackView.addArrangedSubview(otherButtonStack)
         stackView.addArrangedSubview(kanaButtonStack)
         
-        kanaButtonStack.addArrangedSubview(hiraganaButton)
-        kanaButtonStack.addArrangedSubview(katakanaButton)
         otherButtonStack.addArrangedSubview(clearButton)
         otherButtonStack.addArrangedSubview(undoButton)
-        
+        kanaButtonStack.addArrangedSubview(hiraganaButton)
+        kanaButtonStack.addArrangedSubview(katakanaButton)
     }
     
-    private func setupLayout() {
+    func setupLayout() {
         characterLabel.snp.makeConstraints {
             $0.top.equalToSuperview().inset(70)
             $0.centerX.equalToSuperview()
@@ -203,7 +168,7 @@ class KanaTestingDrawingViewController: UIViewController {
             $0.width.equalTo(3)
             $0.height.equalToSuperview()
         }
-
+        
         hiraganaLabel.snp.makeConstraints {
             $0.center.equalToSuperview()
         }
@@ -224,24 +189,35 @@ class KanaTestingDrawingViewController: UIViewController {
         }
     }
     
-    private func updateViews() {
+    func setupButtonStyle(button: UIButton, title: String) {
+        button.backgroundColor = UIColor.accentColor
+        button.layer.cornerRadius = 20
+        button.setTitle(title, for: .normal)
+        button.titleLabel?.font = UIFont(name: "KleeOne-SemiBold", size: 30)
+        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+    }
+    
+    func updateViews() {
         let values = viewModel.getRomajiValue()
         characterLabel.text = values.romaji
         hiraganaLabel.text = values.hiragana
         katakanaLabel.text = values.katakana
     }
     
-    @objc private func buttonTapped(_ sender: UIButton) {
-        if sender.titleLabel?.text == "Katakana" {
+    @objc func buttonTapped(_ sender: UIButton) {
+        let buttonTitle = ButtonNames(rawValue: sender.titleLabel?.text ?? "")
+        
+        switch buttonTitle {
+        case .katakana:
             katakanaLabel.isHidden = katakanaLabelIsHidden ? false : true
             katakanaLabelIsHidden = !katakanaLabelIsHidden
-    
+            
             hiraganaLabelIsHidden = true
             hiraganaLabel.isHidden = hiraganaLabelIsHidden
             
             sender.backgroundColor = katakanaLabelIsHidden ? UIColor.accentColor : UIColor.selectedButtonColor
             hiraganaButton.backgroundColor = UIColor.accentColor
-        } else if sender.titleLabel?.text == "Hiragana" {
+        case .hiragana:
             hiraganaLabel.isHidden = hiraganaLabelIsHidden ? false : true
             hiraganaLabelIsHidden = !hiraganaLabelIsHidden
             
@@ -250,11 +226,11 @@ class KanaTestingDrawingViewController: UIViewController {
             
             sender.backgroundColor = hiraganaLabelIsHidden ? UIColor.accentColor : UIColor.selectedButtonColor
             katakanaButton.backgroundColor = UIColor.accentColor
-        } else if sender.titleLabel?.text == "Undo" {
-            canvasView.undoManager?.undo()
-        } else if sender.titleLabel?.text == "Clear" {
+        case .clear:
             canvasView.drawing = PKDrawing()
-        } else if sender.titleLabel?.text == "Next" {
+        case .undo:
+            canvasView.undoManager?.undo()
+        case .next:
             canvasView.drawing = PKDrawing()
             katakanaLabelIsHidden = true
             katakanaLabel.isHidden = katakanaLabelIsHidden
@@ -264,6 +240,8 @@ class KanaTestingDrawingViewController: UIViewController {
             katakanaButton.backgroundColor = UIColor.accentColor
             hiraganaButton.backgroundColor = UIColor.accentColor
             updateViews()
+        case .none:
+            break
         }
     }
 }
@@ -280,5 +258,15 @@ extension KanaTestingDrawingViewController: PKCanvasViewDelegate {
         } else {
             canvasView.tool = PKInkingTool(.pen, color: UIColor.inkColor ?? .darkGray, width: 8)
         }
+    }
+}
+
+private extension KanaTestingDrawingViewController {
+    enum ButtonNames: String {
+        case clear = "Clear"
+        case undo = "Undo"
+        case hiragana = "Hiragana"
+        case katakana = "Katakana"
+        case next = "Next"
     }
 }

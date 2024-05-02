@@ -4,5 +4,12 @@
 //
 //  Created by Darya Martynenko on 02.05.2024.
 //
+//
 
 import Foundation
+import CoreData
+
+@objc(Kanji)
+public class Kanji: NSManagedObject {
+
+}

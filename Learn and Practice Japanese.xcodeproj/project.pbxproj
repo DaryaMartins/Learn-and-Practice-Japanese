@@ -28,6 +28,14 @@
 		821470C32A8117E8001D4F03 /* KanaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470C22A8117E8001D4F03 /* KanaTest.swift */; };
 		821470C52A83BD78001D4F03 /* KanaTestingDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821470C42A83BD78001D4F03 /* KanaTestingDrawingViewController.swift */; };
 		8272CE182AAA26D300BFDBC1 /* WordInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272CE172AAA26D300BFDBC1 /* WordInfoViewController.swift */; };
+		828F01A32BE3AE06002B1027 /* KanjiTestingDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F01A22BE3AE06002B1027 /* KanjiTestingDrawingViewController.swift */; };
+		828F01A62BE3BFE1002B1027 /* jlptN5.json in Resources */ = {isa = PBXBuildFile; fileRef = 828F01A52BE3BFE1002B1027 /* jlptN5.json */; };
+		828F01A82BE3C0A7002B1027 /* KanjiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F01A72BE3C0A7002B1027 /* KanjiTest.swift */; };
+		828F01AA2BE3C23A002B1027 /* Kanji+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F01A92BE3C23A002B1027 /* Kanji+CoreDataClass.swift */; };
+		828F01AC2BE3C3BE002B1027 /* KanjiTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F01AB2BE3C3BE002B1027 /* KanjiTestingViewModel.swift */; };
+		828F01AE2BE3C593002B1027 /* KanjiValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F01AD2BE3C593002B1027 /* KanjiValue.swift */; };
+		828F01B02BE3D02B002B1027 /* KanjiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F01AF2BE3D02B002B1027 /* KanjiResult.swift */; };
+		828F01B22BE3D979002B1027 /* KanjiDrawInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F01B12BE3D979002B1027 /* KanjiDrawInfo.swift */; };
 		82B7A9272AD2A5F600B70FF6 /* WordListsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B7A9262AD2A5F600B70FF6 /* WordListsCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +46,7 @@
 		8214706D2A7A6D6E001D4F03 /* KanaStartTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaStartTestViewController.swift; sourceTree = "<group>"; };
 		821470732A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Learn_and_Practice_Japanese.xcdatamodel; sourceTree = "<group>"; };
 		821470752A7A6D6F001D4F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8214707A2A7A6D6F001D4F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8214707A2A7A6D6F001D4F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Learn and Practice Japanese/Application/Info.plist"; sourceTree = SOURCE_ROOT; };
 		821470902A7BDEA2001D4F03 /* WordsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsListViewController.swift; sourceTree = "<group>"; };
 		821470922A7BDECA001D4F03 /* GrammarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarListViewController.swift; sourceTree = "<group>"; };
 		821470992A7BE85F001D4F03 /* Klee One–Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Klee One–Semibold.ttf"; sourceTree = "<group>"; };
@@ -54,6 +62,14 @@
 		821470C22A8117E8001D4F03 /* KanaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTest.swift; sourceTree = "<group>"; };
 		821470C42A83BD78001D4F03 /* KanaTestingDrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTestingDrawingViewController.swift; sourceTree = "<group>"; };
 		8272CE172AAA26D300BFDBC1 /* WordInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordInfoViewController.swift; sourceTree = "<group>"; };
+		828F01A22BE3AE06002B1027 /* KanjiTestingDrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiTestingDrawingViewController.swift; sourceTree = "<group>"; };
+		828F01A52BE3BFE1002B1027 /* jlptN5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jlptN5.json; sourceTree = "<group>"; };
+		828F01A72BE3C0A7002B1027 /* KanjiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiTest.swift; sourceTree = "<group>"; };
+		828F01A92BE3C23A002B1027 /* Kanji+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kanji+CoreDataClass.swift"; sourceTree = "<group>"; };
+		828F01AB2BE3C3BE002B1027 /* KanjiTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiTestingViewModel.swift; sourceTree = "<group>"; };
+		828F01AD2BE3C593002B1027 /* KanjiValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiValue.swift; sourceTree = "<group>"; };
+		828F01AF2BE3D02B002B1027 /* KanjiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiResult.swift; sourceTree = "<group>"; };
+		828F01B12BE3D979002B1027 /* KanjiDrawInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiDrawInfo.swift; sourceTree = "<group>"; };
 		82B7A9262AD2A5F600B70FF6 /* WordListsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,14 +104,10 @@
 		821470682A7A6D6E001D4F03 /* Learn and Practice Japanese */ = {
 			isa = PBXGroup;
 			children = (
+				828F01A02BE3AA63002B1027 /* Application */,
 				821470A42A7BFF7C001D4F03 /* Model */,
 				821470972A7BE78F001D4F03 /* Assets */,
 				8214708F2A7BDE04001D4F03 /* View */,
-				821470692A7A6D6E001D4F03 /* AppDelegate.swift */,
-				8214706B2A7A6D6E001D4F03 /* SceneDelegate.swift */,
-				8214707A2A7A6D6F001D4F03 /* Info.plist */,
-				821470A82A7D56BC001D4F03 /* LaunchViewController.swift */,
-				821470A92A7D56BC001D4F03 /* LaunchViewController.xib */,
 			);
 			path = "Learn and Practice Japanese";
 			sourceTree = "<group>";
@@ -136,6 +148,7 @@
 				8214706D2A7A6D6E001D4F03 /* KanaStartTestViewController.swift */,
 				821470A22A7BF212001D4F03 /* KanaTestingViewController.swift */,
 				821470C42A83BD78001D4F03 /* KanaTestingDrawingViewController.swift */,
+				828F01A22BE3AE06002B1027 /* KanjiTestingDrawingViewController.swift */,
 			);
 			path = KanaTest;
 			sourceTree = "<group>";
@@ -161,6 +174,7 @@
 		821470A42A7BFF7C001D4F03 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				828F01A42BE3BFB8002B1027 /* Jsons */,
 				821470C12A8117BC001D4F03 /* Models */,
 				821470AC2A7D6604001D4F03 /* CoreData */,
 				821470A52A7BFF82001D4F03 /* Extentions */,
@@ -181,6 +195,7 @@
 			children = (
 				821470B92A7D68BC001D4F03 /* Kana+CoreDataClass.swift */,
 				821470722A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodeld */,
+				828F01A92BE3C23A002B1027 /* Kanji+CoreDataClass.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -190,6 +205,10 @@
 			children = (
 				821470BF2A7D79A6001D4F03 /* KanaValues.swift */,
 				821470C22A8117E8001D4F03 /* KanaTest.swift */,
+				828F01A72BE3C0A7002B1027 /* KanjiTest.swift */,
+				828F01AD2BE3C593002B1027 /* KanjiValue.swift */,
+				828F01AF2BE3D02B002B1027 /* KanjiResult.swift */,
+				828F01B12BE3D979002B1027 /* KanjiDrawInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,8 +217,29 @@
 			isa = PBXGroup;
 			children = (
 				821470BD2A7D6C59001D4F03 /* KanaTestingViewModel.swift */,
+				828F01AB2BE3C3BE002B1027 /* KanjiTestingViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		828F01A02BE3AA63002B1027 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				821470692A7A6D6E001D4F03 /* AppDelegate.swift */,
+				8214706B2A7A6D6E001D4F03 /* SceneDelegate.swift */,
+				8214707A2A7A6D6F001D4F03 /* Info.plist */,
+				821470A82A7D56BC001D4F03 /* LaunchViewController.swift */,
+				821470A92A7D56BC001D4F03 /* LaunchViewController.xib */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		828F01A42BE3BFB8002B1027 /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				828F01A52BE3BFE1002B1027 /* jlptN5.json */,
+			);
+			path = Jsons;
 			sourceTree = "<group>";
 		};
 		82B7A9252AD2A5D800B70FF6 /* Cell */ = {
@@ -274,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828F01A62BE3BFE1002B1027 /* jlptN5.json in Resources */,
 				8214709C2A7BE85F001D4F03 /* Klee One–Regular.ttf in Resources */,
 				821470762A7A6D6F001D4F03 /* Assets.xcassets in Resources */,
 				8214709B2A7BE85F001D4F03 /* Klee One–Semibold.ttf in Resources */,
@@ -288,8 +329,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828F01A82BE3C0A7002B1027 /* KanjiTest.swift in Sources */,
+				828F01AA2BE3C23A002B1027 /* Kanji+CoreDataClass.swift in Sources */,
 				821470C52A83BD78001D4F03 /* KanaTestingDrawingViewController.swift in Sources */,
 				8214709E2A7BEC6E001D4F03 /* Fonts.swift in Sources */,
+				828F01B02BE3D02B002B1027 /* KanjiResult.swift in Sources */,
 				821470AA2A7D56BC001D4F03 /* LaunchViewController.swift in Sources */,
 				821470BE2A7D6C59001D4F03 /* KanaTestingViewModel.swift in Sources */,
 				821470742A7A6D6E001D4F03 /* Learn_and_Practice_Japanese.xcdatamodeld in Sources */,
@@ -298,13 +342,17 @@
 				821470BB2A7D68BD001D4F03 /* Kana+CoreDataClass.swift in Sources */,
 				821470932A7BDECA001D4F03 /* GrammarListViewController.swift in Sources */,
 				821470A72A7BFF9B001D4F03 /* UIColor.swift in Sources */,
+				828F01B22BE3D979002B1027 /* KanjiDrawInfo.swift in Sources */,
 				821470912A7BDEA2001D4F03 /* WordsListViewController.swift in Sources */,
 				821470A32A7BF212001D4F03 /* KanaTestingViewController.swift in Sources */,
 				821470C02A7D79A6001D4F03 /* KanaValues.swift in Sources */,
 				8214706A2A7A6D6E001D4F03 /* AppDelegate.swift in Sources */,
+				828F01A32BE3AE06002B1027 /* KanjiTestingDrawingViewController.swift in Sources */,
 				8272CE182AAA26D300BFDBC1 /* WordInfoViewController.swift in Sources */,
+				828F01AC2BE3C3BE002B1027 /* KanjiTestingViewModel.swift in Sources */,
 				82B7A9272AD2A5F600B70FF6 /* WordListsCell.swift in Sources */,
 				8214706C2A7A6D6E001D4F03 /* SceneDelegate.swift in Sources */,
+				828F01AE2BE3C593002B1027 /* KanjiValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +482,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3ZSTN83ADW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Learn and Practice Japanese/Info.plist";
+				INFOPLIST_FILE = "Learn and Practice Japanese/Application/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = JapaneseApp;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -469,7 +517,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3ZSTN83ADW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Learn and Practice Japanese/Info.plist";
+				INFOPLIST_FILE = "Learn and Practice Japanese/Application/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = JapaneseApp;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

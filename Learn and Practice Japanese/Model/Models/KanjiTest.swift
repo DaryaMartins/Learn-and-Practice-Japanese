@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct KanjiTest {
+    let kanjiUnderTest: String
+    let optionOne: String
+    let optionTwo: String
+    let optionThree: String
+    let optionFour: String
+    let correctAnswer: String
+    let answerString: String
+}

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct KanjiDrawInfo: Decodable {
+    let kanji: String
+    let meanings: String
+    let readingsOn: String
+    let readingsKun: String
+}

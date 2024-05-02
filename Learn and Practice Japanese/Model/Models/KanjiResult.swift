@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct KanjiResult: Decodable {
+    let result: [KanjiValue]
+}

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct KanjiValue: Decodable {
+    let kanji: String
+    let meanings: [String]
+    let jlptNew: Int
+    let readingsOn: [String]
+    let readingsKun: [String]
+}

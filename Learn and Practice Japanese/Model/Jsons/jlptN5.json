@@ -1,0 +1,1526 @@
+{
+    "result": [
+        {
+            "kanji": "一",
+            "strokes": 1,
+            "grade": 1,
+            "freq": 2,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "One",
+                "One Radical (no.1)"
+            ],
+            "readingsOn": [
+                "いち",
+                "いつ"
+            ],
+            "readingsKun": [
+                "ひと-",
+                "ひと.つ"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "One"
+            ],
+            "wkReadingsOn": [
+                "いち",
+                "いつ"
+            ],
+            "wkReadingsKun": [
+                "!ひと"
+            ],
+            "wk_radicals": [
+                "Ground"
+            ]
+        },
+        {
+            "kanji": "二",
+            "strokes": 2,
+            "grade": 1,
+            "freq": 9,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Two",
+                "Two Radical (no. 7)"
+            ],
+            "readingsOn": [
+                "に",
+                "じ"
+            ],
+            "readingsKun": [
+                "ふた",
+                "ふた.つ",
+                "ふたたび"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Two"
+            ],
+            "wkReadingsOn": [
+                "に"
+            ],
+            "wkReadingsKun": [
+                "!ふた"
+            ],
+            "wk_radicals": [
+                "Two"
+            ]
+        },
+        {
+            "kanji": "九",
+            "strokes": 2,
+            "grade": 1,
+            "freq": 55,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Nine"
+            ],
+            "readingsOn": [
+                "きゅう",
+                "く"
+            ],
+            "readingsKun": [
+                "ここの",
+                "ここの.つ"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Nine"
+            ],
+            "wkReadingsOn": [
+                "く",
+                "きゅう"
+            ],
+            "wkReadingsKun": [
+                "!ここの"
+            ],
+            "wk_radicals": [
+                "Nine"
+            ]
+        },
+        {
+            "kanji": "七",
+            "strokes": 2,
+            "grade": 1,
+            "freq": 115,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Seven"
+            ],
+            "readingsOn": [
+                "しち"
+            ],
+            "readingsKun": [
+                "なな",
+                "なな.つ",
+                "なの"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Seven"
+            ],
+            "wkReadingsOn": [
+                "しち"
+            ],
+            "wkReadingsKun": [
+                "!なな",
+                "!なの"
+            ],
+            "wk_radicals": [
+                "Seven"
+            ]
+        },
+        {
+            "kanji": "人",
+            "strokes": 2,
+            "grade": 1,
+            "freq": 5,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Person"
+            ],
+            "readingsOn": [
+                "じん",
+                "にん"
+            ],
+            "readingsKun": [
+                "ひと",
+                "-り",
+                "-と"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Person"
+            ],
+            "wkReadingsOn": [
+                "にん",
+                "じん"
+            ],
+            "wkReadingsKun": [
+                "!ひと",
+                "!と"
+            ],
+            "wk_radicals": [
+                "Person"
+            ]
+        },
+       {
+            "kanji": "入",
+            "strokes": 2,
+            "grade": 1,
+            "freq": 56,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Enter",
+                "Insert"
+            ],
+            "readingsOn": [
+                "にゅう",
+                "じゅ"
+            ],
+            "readingsKun": [
+                "い.る",
+                "-い.る",
+                "-い.り",
+                "い.れる",
+                "-い.れ",
+                "はい.る"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Enter"
+            ],
+            "wkReadingsOn": [
+                "にゅう"
+            ],
+            "wkReadingsKun": [
+                "!はい",
+                "!い"
+            ],
+            "wk_radicals": [
+                "Enter"
+            ]
+        },
+        {
+            "kanji": "八",
+            "strokes": 2,
+            "grade": 1,
+            "freq": 92,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Eight",
+                "Eight Radical (no. 12)"
+            ],
+            "readingsOn": [
+                "はち"
+            ],
+            "readingsKun": [
+                "や",
+                "や.つ",
+                "やっ.つ",
+                "よう"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Eight"
+            ],
+            "wkReadingsOn": [
+                "はち"
+            ],
+            "wkReadingsKun": [
+                "!や",
+                "!よう"
+            ],
+            "wk_radicals": [
+                "Fins"
+            ]
+        },
+        {
+            "kanji": "十",
+            "strokes": 2,
+            "grade": 1,
+            "freq": 8,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Ten"
+            ],
+            "readingsOn": [
+                "じゅう",
+                "じっ",
+                "じゅっ"
+            ],
+            "readingsKun": [
+                "とお",
+                "と"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Ten"
+            ],
+            "wkReadingsOn": [
+                "じゅう"
+            ],
+            "wkReadingsKun": [
+                "!とお"
+            ],
+            "wk_radicals": [
+                "Cross"
+            ]
+        },
+        {
+            "kanji": "三",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 14,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Three"
+            ],
+            "readingsOn": [
+                "さん",
+                "ぞう"
+            ],
+            "readingsKun": [
+                "み",
+                "み.つ",
+                "みっ.つ"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Three"
+            ],
+            "wkReadingsOn": [
+                "さん"
+            ],
+            "wkReadingsKun": [
+                "!み"
+            ],
+            "wk_radicals": [
+                "Ground",
+                "Two"
+            ]
+        },
+        {
+            "kanji": "上",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 35,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Above",
+                "Up"
+            ],
+            "readingsOn": [
+                "じょう",
+                "しょう",
+                "しゃん"
+            ],
+            "readingsKun": [
+                "うえ",
+                "-うえ",
+                "うわ-",
+                "かみ",
+                "あ.げる",
+                "-あ.げる",
+                "あ.がる",
+                "-あ.がる",
+                "あ.がり",
+                "-あ.がり",
+                "のぼ.る",
+                "のぼ.り",
+                "のぼ.せる",
+                "のぼ.す",
+                "たてまつ.る"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Above",
+                "^Up",
+                "^Over"
+            ],
+            "wkReadingsOn": [
+                "じょう"
+            ],
+            "wkReadingsKun": [
+                "!うえ",
+                "!あ",
+                "!のぼ",
+                "!うわ",
+                "!かみ"
+            ],
+            "wk_radicals": [
+                "Toe",
+                "Ground"
+            ]
+        },
+        {
+            "kanji": "下",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 97,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Below",
+                "Down",
+                "Descend",
+                "Give",
+                "Low",
+                "Inferior"
+            ],
+            "readingsOn": [
+                "か",
+                "げ"
+            ],
+            "readingsKun": [
+                "した",
+                "しも",
+                "もと",
+                "さ.げる",
+                "さ.がる",
+                "くだ.る",
+                "くだ.り",
+                "くだ.す",
+                "-くだ.す",
+                "くだ.さる",
+                "お.ろす",
+                "お.りる"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Below",
+                "^Down",
+                "^Under",
+                "^Beneath"
+            ],
+            "wkReadingsOn": [
+                "か",
+                "げ"
+            ],
+            "wkReadingsKun": [
+                "!した",
+                "!さ",
+                "!くだ",
+                "!お"
+            ],
+            "wk_radicals": [
+                "Ground",
+                "Toe"
+            ]
+        },
+        {
+            "kanji": "大",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 7,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Large",
+                "Big"
+            ],
+            "readingsOn": [
+                "だい",
+                "たい"
+            ],
+            "readingsKun": [
+                "おお-",
+                "おお.きい",
+                "-おお.いに"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Big",
+                "^Large"
+            ],
+            "wkReadingsOn": [
+                "たい",
+                "だい"
+            ],
+            "wkReadingsKun": [
+                "!おお"
+            ],
+            "wk_radicals": [
+                "Big"
+            ]
+        },
+        {
+            "kanji": "女",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 151,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Woman",
+                "Female"
+            ],
+            "readingsOn": [
+                "じょ",
+                "にょ",
+                "にょう"
+            ],
+            "readingsKun": [
+                "おんな",
+                "め"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Woman"
+            ],
+            "wkReadingsOn": [
+                "じょ"
+            ],
+            "wkReadingsKun": [
+                "!おんな",
+                "!め"
+            ],
+            "wk_radicals": [
+                "Woman"
+            ]
+        },
+        {
+            "kanji": "山",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 131,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Mountain"
+            ],
+            "readingsOn": [
+                "さん",
+                "せん"
+            ],
+            "readingsKun": [
+                "やま"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "Mountain"
+            ],
+            "wkReadingsOn": [
+                "さん"
+            ],
+            "wkReadingsKun": [
+                "!やま"
+            ],
+            "wk_radicals": [
+                "Mountain"
+            ]
+        },
+       {
+            "kanji": "川",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 181,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Stream",
+                "River",
+                "River Or Three-stroke River Radical (no. 47)"
+            ],
+            "readingsOn": [
+                "せん"
+            ],
+            "readingsKun": [
+                "かわ"
+            ],
+            "wk_level": 1,
+            "wk_meanings": [
+                "River"
+            ],
+            "wkReadingsOn": [
+                "!せん"
+            ],
+            "wkReadingsKun": [
+                "かわ"
+            ],
+            "wk_radicals": [
+                "River"
+            ]
+        },
+        {
+            "kanji": "土",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 307,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Soil",
+                "Earth",
+                "Ground",
+                "Turkey"
+            ],
+            "readingsOn": [
+                "ど",
+                "と"
+            ],
+            "readingsKun": [
+                "つち"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Dirt",
+                "^Soil",
+                "^Earth",
+                "^Ground"
+            ],
+            "wkReadingsOn": [
+                "ど",
+                "^と"
+            ],
+            "wkReadingsKun": [
+                "!つち"
+            ],
+            "wk_radicals": [
+                "Dirt"
+            ]
+        },
+        {
+            "kanji": "千",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 195,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Thousand"
+            ],
+            "readingsOn": [
+                "せん"
+            ],
+            "readingsKun": [
+                "ち"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Thousand"
+            ],
+            "wkReadingsOn": [
+                "せん"
+            ],
+            "wkReadingsKun": [
+                "!ち"
+            ],
+            "wk_radicals": [
+                "Thousand"
+            ]
+        },
+        {
+            "kanji": "子",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 72,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Child",
+                "Sign Of The Rat",
+                "11pm-1am",
+                "First Sign Of Chinese Zodiac"
+            ],
+            "readingsOn": [
+                "し",
+                "す",
+                "つ"
+            ],
+            "readingsKun": [
+                "こ",
+                "-こ",
+                "ね"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Child",
+                "^Kid"
+            ],
+            "wkReadingsOn": [
+                "し",
+                "す"
+            ],
+            "wkReadingsKun": [
+                "!こ"
+            ],
+            "wk_radicals": [
+                "Child"
+            ]
+        },
+        {
+            "kanji": "小",
+            "strokes": 3,
+            "grade": 1,
+            "freq": 114,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Little",
+                "Small"
+            ],
+            "readingsOn": [
+                "しょう"
+            ],
+            "readingsKun": [
+                "ちい.さい",
+                "こ-",
+                "お-",
+                "さ-"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Small",
+                "^Little"
+            ],
+            "wkReadingsOn": [
+                "しょう"
+            ],
+            "wkReadingsKun": [
+                "!ちい",
+                "!こ",
+                "!お"
+            ],
+            "wk_radicals": [
+                "Small"
+            ]
+        },
+       {
+            "kanji": "五",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 31,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Five"
+            ],
+            "readingsOn": [
+                "ご"
+            ],
+            "readingsKun": [
+                "いつ",
+                "いつ.つ"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Five"
+            ],
+            "wkReadingsOn": [
+                "ご"
+            ],
+            "wkReadingsKun": [
+                "!いつ"
+            ],
+            "wk_radicals": [
+                "Five"
+            ]
+        },
+        {
+            "kanji": "六",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 93,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Six"
+            ],
+            "readingsOn": [
+                "ろく",
+                "りく"
+            ],
+            "readingsKun": [
+                "む",
+                "む.つ",
+                "むっ.つ",
+                "むい"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Six"
+            ],
+            "wkReadingsOn": [
+                "ろく"
+            ],
+            "wkReadingsKun": [
+                "!む"
+            ],
+            "wk_radicals": [
+                "Lid",
+                "Fins"
+            ]
+        },
+        {
+            "kanji": "円",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 69,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Circle",
+                "Yen",
+                "Round"
+            ],
+            "readingsOn": [
+                "えん"
+            ],
+            "readingsKun": [
+                "まる.い",
+                "まる",
+                "まど",
+                "まど.か",
+                "まろ.やか"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Yen",
+                "^Round",
+                "^Circle"
+            ],
+            "wkReadingsOn": [
+                "えん"
+            ],
+            "wkReadingsKun": [
+                "!まる"
+            ],
+            "wk_radicals": [
+                "Lid",
+                "Head"
+            ]
+        },
+        {
+            "kanji": "天",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 512,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Heavens",
+                "Sky",
+                "Imperial"
+            ],
+            "readingsOn": [
+                "てん"
+            ],
+            "readingsKun": [
+                "あまつ",
+                "あめ",
+                "あま-"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Heaven"
+            ],
+            "wkReadingsOn": [
+                "てん"
+            ],
+            "wkReadingsKun": [
+                "!あま"
+            ],
+            "wk_radicals": [
+                "Heaven"
+            ]
+        },
+        {
+            "kanji": "日",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 1,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Day",
+                "Sun",
+                "Japan",
+                "Counter For Days"
+            ],
+            "readingsOn": [
+                "にち",
+                "じつ"
+            ],
+            "readingsKun": [
+                "ひ",
+                "-び",
+                "-か"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Sun",
+                "^Day"
+            ],
+            "wkReadingsOn": [
+                "にち",
+                "じつ"
+            ],
+            "wkReadingsKun": [
+                "!ひ",
+                "!か",
+                "!び"
+            ],
+            "wk_radicals": [
+                "Sun"
+            ]
+        },
+        {
+            "kanji": "月",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 23,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Month",
+                "Moon"
+            ],
+            "readingsOn": [
+                "げつ",
+                "がつ"
+            ],
+            "readingsKun": [
+                "つき"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Moon",
+                "^Month"
+            ],
+            "wkReadingsOn": [
+                "げつ",
+                "がつ"
+            ],
+            "wkReadingsKun": [
+                "!つき"
+            ],
+            "wk_radicals": [
+                "Moon"
+            ]
+        },
+       {
+            "kanji": "木",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 317,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Tree",
+                "Wood"
+            ],
+            "readingsOn": [
+                "ぼく",
+                "もく"
+            ],
+            "readingsKun": [
+                "き",
+                "こ-"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Tree",
+                "^Wood"
+            ],
+            "wkReadingsOn": [
+                "もく",
+                "ぼく"
+            ],
+            "wkReadingsKun": [
+                "!き",
+                "!こ"
+            ],
+            "wk_radicals": [
+                "Tree"
+            ]
+        },
+        {
+            "kanji": "水",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 223,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Water"
+            ],
+            "readingsOn": [
+                "すい"
+            ],
+            "readingsKun": [
+                "みず",
+                "みず-"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Water"
+            ],
+            "wkReadingsOn": [
+                "すい"
+            ],
+            "wkReadingsKun": [
+                "!みず"
+            ],
+            "wk_radicals": [
+                "Water"
+            ]
+        },
+        {
+            "kanji": "火",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 574,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Fire"
+            ],
+            "readingsOn": [
+                "か"
+            ],
+            "readingsKun": [
+                "ひ",
+                "-び",
+                "ほ-"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Fire"
+            ],
+            "wkReadingsOn": [
+                "か"
+            ],
+            "wkReadingsKun": [
+                "!ひ",
+                "!ほ"
+            ],
+            "wk_radicals": [
+                "Fire"
+            ]
+        },
+        {
+            "kanji": "出",
+            "strokes": 5,
+            "grade": 1,
+            "freq": 13,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Exit",
+                "Leave",
+                "Go Out",
+                "Come Out",
+                "Put Out",
+                "Protrude"
+            ],
+            "readingsOn": [
+                "しゅつ",
+                "すい"
+            ],
+            "readingsKun": [
+                "で.る",
+                "-で",
+                "だ.す",
+                "-だ.す",
+                "い.でる",
+                "い.だす"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Exit"
+            ],
+            "wkReadingsOn": [
+                "しゅつ"
+            ],
+            "wkReadingsKun": [
+                "!で",
+                "!だ"
+            ],
+            "wk_radicals": [
+                "Mountain"
+            ]
+        },
+        {
+            "kanji": "右",
+            "strokes": 5,
+            "grade": 1,
+            "freq": 602,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Right"
+            ],
+            "readingsOn": [
+                "う",
+                "ゆう"
+            ],
+            "readingsKun": [
+                "みぎ"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Right"
+            ],
+            "wkReadingsOn": [
+                "^う",
+                "ゆう"
+            ],
+            "wkReadingsKun": [
+                "!みぎ"
+            ],
+            "wk_radicals": [
+                "Narwhal",
+                "Mouth"
+            ]
+        },
+        {
+            "kanji": "四",
+            "strokes": 5,
+            "grade": 1,
+            "freq": 47,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Four"
+            ],
+            "readingsOn": [
+                "し"
+            ],
+            "readingsKun": [
+                "よ",
+                "よ.つ",
+                "よっ.つ",
+                "よん"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Four"
+            ],
+            "wkReadingsOn": [
+                "し"
+            ],
+            "wkReadingsKun": [
+                "!よん",
+                "!よ"
+            ],
+            "wk_radicals": [
+                "Mouth",
+                "Legs"
+            ]
+        },
+        {
+            "kanji": "左",
+            "strokes": 5,
+            "grade": 1,
+            "freq": 630,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Left"
+            ],
+            "readingsOn": [
+                "さ",
+                "しゃ"
+            ],
+            "readingsKun": [
+                "ひだり"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Left"
+            ],
+            "wkReadingsOn": [
+                "さ"
+            ],
+            "wkReadingsKun": [
+                "!ひだり"
+            ],
+            "wk_radicals": [
+                "Narwhal",
+                "Construction"
+            ]
+        },
+        {
+            "kanji": "本",
+            "strokes": 5,
+            "grade": 1,
+            "freq": 10,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Book",
+                "Present",
+                "Main",
+                "Origin",
+                "True",
+                "Real",
+                "Counter For Long Cylindrical Things"
+            ],
+            "readingsOn": [
+                "ほん"
+            ],
+            "readingsKun": [
+                "もと"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Book",
+                "^Origin",
+                "^Real",
+                "^Main"
+            ],
+            "wkReadingsOn": [
+                "ほん"
+            ],
+            "wkReadingsKun": [
+                "!もと"
+            ],
+            "wk_radicals": [
+                "Book"
+            ]
+        },
+        {
+            "kanji": "白",
+            "strokes": 5,
+            "grade": 1,
+            "freq": 483,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "White"
+            ],
+            "readingsOn": [
+                "はく",
+                "びゃく"
+            ],
+            "readingsKun": [
+                "しろ",
+                "しら-",
+                "しろ.い"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "White"
+            ],
+            "wkReadingsOn": [
+                "はく"
+            ],
+            "wkReadingsKun": [
+                "!しろ",
+                "!しら"
+            ],
+            "wk_radicals": [
+                "White"
+            ]
+        },
+        { 
+            "kanji": "万",
+            "strokes": 3,
+            "grade": 2,
+            "freq": 375,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Ten Thousand",
+                "10,000"
+            ],
+            "readingsOn": [
+                "まん",
+                "ばん"
+            ],
+            "readingsKun": [
+                "よろず"
+            ],
+            "wk_level": 3,
+            "wk_meanings": [
+                "Ten Thousand"
+            ],
+            "wkReadingsOn": [
+                "まん",
+                "ばん"
+            ],
+            "wkReadingsKun": [],
+            "wk_radicals": [
+                "Leaf",
+                "Sword"
+            ]
+        },
+        {
+            "kanji": "今",
+            "strokes": 4,
+            "grade": 2,
+            "freq": 49,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Now"
+            ],
+            "readingsOn": [
+                "こん",
+                "きん"
+            ],
+            "readingsKun": [
+                "いま"
+            ],
+            "wk_level": 3,
+            "wk_meanings": [
+                "Now"
+            ],
+            "wkReadingsOn": [
+                "こん"
+            ],
+            "wkReadingsKun": [
+                "!いま"
+            ],
+            "wk_radicals": [
+                "Now"
+            ]
+        },
+        {
+            "kanji": "午",
+            "strokes": 4,
+            "grade": 2,
+            "freq": 154,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Noon",
+                "Sign Of The Horse",
+                "11am-1pm",
+                "Seventh Sign Of Chinese Zodiac"
+            ],
+            "readingsOn": [
+                "ご"
+            ],
+            "readingsKun": [
+                "うま"
+            ],
+            "wk_level": 3,
+            "wk_meanings": [
+                "Noon"
+            ],
+            "wkReadingsOn": [
+                "ご"
+            ],
+            "wkReadingsKun": [],
+            "wk_radicals": [
+                "Slide",
+                "Dry"
+            ]
+        },
+       {
+            "kanji": "友",
+            "strokes": 4,
+            "grade": 2,
+            "freq": 622,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Friend"
+            ],
+            "readingsOn": [
+                "ゆう"
+            ],
+            "readingsKun": [
+                "とも"
+            ],
+            "wk_level": 3,
+            "wk_meanings": [
+                "Friend"
+            ],
+            "wkReadingsOn": [
+                "ゆう"
+            ],
+            "wkReadingsKun": [
+                "!とも"
+            ],
+            "wk_radicals": [
+                "Narwhal",
+                "Stool"
+            ]
+        },
+        {
+            "kanji": "父",
+            "strokes": 4,
+            "grade": 2,
+            "freq": 646,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Father"
+            ],
+            "readingsOn": [
+                "ふ"
+            ],
+            "readingsKun": [
+                "ちち"
+            ],
+            "wk_level": 3,
+            "wk_meanings": [
+                "Father",
+                "^Dad"
+            ],
+            "wkReadingsOn": [
+                "!ふ"
+            ],
+            "wkReadingsKun": [
+                "ちち"
+            ],
+            "wk_radicals": [
+                "Father"
+            ]
+        },
+        {
+            "kanji": "北",
+            "strokes": 5,
+            "grade": 2,
+            "freq": 153,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "North"
+            ],
+            "readingsOn": [
+                "ほく"
+            ],
+            "readingsKun": [
+                "きた"
+            ],
+            "wk_level": 3,
+            "wk_meanings": [
+                "North"
+            ],
+            "wkReadingsOn": [
+                "ほく"
+            ],
+            "wkReadingsKun": [
+                "!きた"
+            ],
+            "wk_radicals": [
+                "Fingers",
+                "Spoon"
+            ]
+        },
+        {
+            "kanji": "半",
+            "strokes": 5,
+            "grade": 2,
+            "freq": 224,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Half",
+                "Middle",
+                "Odd Number",
+                "Semi-",
+                "Part-"
+            ],
+            "readingsOn": [
+                "はん"
+            ],
+            "readingsKun": [
+                "なか.ば"
+            ],
+            "wk_level": 3,
+            "wk_meanings": [
+                "Half"
+            ],
+            "wkReadingsOn": [
+                "はん"
+            ],
+            "wkReadingsKun": [
+                "!なか"
+            ],
+            "wk_radicals": [
+                "Triceratops",
+                "Dry"
+            ]
+        },
+        {
+            "kanji": "外",
+            "strokes": 5,
+            "grade": 2,
+            "freq": 81,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "Outside"
+            ],
+            "readingsOn": [
+                "がい",
+                "げ"
+            ],
+            "readingsKun": [
+                "そと",
+                "ほか",
+                "はず.す",
+                "はず.れる",
+                "と-"
+            ],
+            "wk_level": 3,
+            "wk_meanings": [
+                "Outside"
+            ],
+            "wkReadingsOn": [
+                "がい"
+            ],
+            "wkReadingsKun": [
+                "!そと",
+                "!はず"
+            ],
+            "wk_radicals": [
+                "Evening",
+                "Toe"
+            ]
+        },
+        {
+            "kanji": "中",
+            "strokes": 4,
+            "grade": 1,
+            "freq": 11,
+            "jlptOld": 4,
+            "jlptNew": 5,
+            "meanings": [
+                "In",
+                "Inside",
+                "Middle",
+                "Mean",
+                "Center"
+            ],
+            "readingsOn": [
+                "ちゅう"
+            ],
+            "readingsKun": [
+                "なか",
+                "うち",
+                "あた.る"
+            ],
+            "wk_level": 2,
+            "wk_meanings": [
+                "Middle",
+                "^In",
+                "^Inside",
+                "^Center"
+            ],
+            "wkReadingsOn": [
+                "ちゅう"
+            ],
+            "wkReadingsKun": [
+                "!なか"
+            ],
+            "wk_radicals": [
+                "Middle"
+            ]
+        }]
+}
